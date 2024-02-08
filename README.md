@@ -7,4 +7,4 @@ A simple Flutter project to test Parallax package and it's effects
 This project uses Gyroscope or Accelerometter, so in order to test it, deploy it
 to a real device or install any movement simulator to test it.
 
-<img src="./image.png" width="70%" height="70%" />
+<img src="./image.png" width="50%" height="50%" />
