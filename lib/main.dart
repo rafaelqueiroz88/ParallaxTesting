@@ -15,11 +15,10 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Parallax',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -72,10 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
             imageFit: BoxFit.fitHeight,
             imageBlurValue: 3,
           ),
-          // Layer(
-          //   sensitivity: 12,
-          //   child: const Text('Topmost layer'),
-          // ),
+          // Add as much Layers as needed
         ],
         child: const Center(
           child: SizedBox(
@@ -89,17 +85,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   Text(
                     'Parallax',
                     style: TextStyle(
-                      // color: Colors.tealAccent,
                       fontSize: 38,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                   Text(
                     'Com giroscópio',
-                    style: TextStyle(
-                      // color: Colors.white,
-                      fontSize: 15,
-                    ),
+                    style: TextStyle(fontSize: 15),
                   ),
                 ],
               ),
