@@ -1,4 +1,4 @@
-# Testando efeitos de Parallax
+# Testing Parallax effects
 
 A simple Flutter project to test Parallax package and it's effects
 
